@@ -69,18 +69,4 @@ public class Partida {
                 return "<vazio>";
         }
     }
-    
-    public void darPonto(boolean equipe){
-        if(equipe)
-            equipeA.ganhaPonto();
-        else
-            equipeB.ganhaPonto();
-    }
-    
-    public void tiraPonto(boolean equipe){
-        if(equipe)
-            equipeA.ganhaPonto();
-        else
-            equipeB.ganhaPonto();
-    }
 }
